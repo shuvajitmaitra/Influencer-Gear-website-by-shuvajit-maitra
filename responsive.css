@@ -1,0 +1,63 @@
+
+/* Responsive design Start form here  */
+
+/* mobile responsive 576px */
+
+@media screen and (max-width:576px){
+    nav{
+        margin: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul{
+        justify-content: center;
+        gap: 1rem;
+    }
+    .banner, .featured-product-section{
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 90%;
+    }
+
+    .banner img{
+        width: 80%;
+        margin: auto;
+    }
+
+    .sponsors{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-evenly;
+    }
+    .cards-div{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/* Medium devices Responsiveness */
+
+@media screen and (min-width:576px) and (max-width:922px) {
+    
+    .banner, .featured-product-section{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    .sponsors{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-evenly;
+        gap: 1rem;
+    }
+    .cards-div{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
