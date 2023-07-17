@@ -141,6 +141,10 @@ margin: 0.31rem 0;
 
 }
 
+.checked{
+    color: yellow;
+}
+
 .see-more-btn-div{
     display: flex;
     justify-content: end;
